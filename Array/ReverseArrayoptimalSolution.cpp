@@ -8,7 +8,6 @@ void ArrayReverse(int arr[5], int size, int key){
     int temp=0;
     int i=0;
     while(i<index){
-        cout<<i<<"  ==  "<<index<<endl;
         temp = arr[i];
         arr[i] = arr[index];
         arr[index] = temp;
